@@ -1,7 +1,9 @@
 This directory contains a collection of books which may be used for chess engine development. These books are in Portable Game Notation (PGN) and are PGN files, but some of the files contain data in Forsyth–Edwards Notation (FEN) instead of PGN. For PGN, each player's move is recorded in a numbered list with a description of some of the key details of the game. For FEN, the moves are not recorded but the setup of the game board is recorded by writing out the position of every piece and empty space in each row.
 
+
 For more information about Portable Game Notation, visit here: 
 https://www.chessprogramming.org/Portable_Game_Notation
+
 
 For more information about Forsyth–Edwards Notation, visit here:
 https://www.chessprogramming.org/Forsyth-Edwards_Notation
