@@ -5,7 +5,7 @@
 ## 📂 Contents
 
 ### 1. **Types of Books**
-   - **Unbalanced Human Openings (UHO)**: A curated collection by Stefan Pohl focusing on unbalanced and creative play.
+   - **Unbalanced Human Openings (UHO)**: A curated collection by Stefan Pohl focusing on unbalanced and moves 100% played by humans.
    - **FRC/Chess960 Books**: Datasets for **Chess960/Fischer Random Chess**.
    - **DFRC Openings**: Datasets for **Double Fischer Random Chess**.
    - **@bjbraams's Chess Database**: Biased (dbcn) and known from human master play.
