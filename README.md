@@ -8,7 +8,7 @@
    - **Unbalanced Human Openings (UHO)**: A curated collection by Stefan Pohl focusing on unbalanced and creative play.
    - **FRC/Chess960 Books**: Datasets for **Chess960/Fischer Random Chess**.
    - **DFRC Openings**: Datasets for **Double Fischer Random Chess**.
-   - **bjbraams_chessdb**: Biased (dbcn) and known from human master play.
+   - **@bjbraams's Chess Database**: Biased (dbcn) and known from human master play.
    - **Popular Position Books**:
    - **Endgame Books**:
    - **Drawkiller Books**:
