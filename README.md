@@ -6,12 +6,13 @@
 
 ### 1. **Types of Books**
    - **Unbalanced Human Openings (UHO)**: A curated collection by Stefan Pohl focusing on unbalanced and creative play.
-   - **FRC/Chess960 Books**: Books designed for Fischer Random Chess.
+   - **FRC/Chess960 Books**: Datasets for **Chess960/Fischer Random Chess**.
    - **DFRC Openings**: Datasets for **Double Fischer Random Chess**.
-   - **Popular Position Books**: Collections based on position frequency, including Lichess-based data.
-   - **Endgame Books**: Specialized datasets for evaluating endgame play.
-   - **Drawkiller Books**: Designed to reduce early draws and encourage fighting chess.
-   - **Hybrid Book**: Hybrid book beta.
+   - **bjbraams_chessdb**: Biased (dbcn) and known from human master play.
+   - **Popular Position Books**:
+   - **Endgame Books**:
+   - **Drawkiller Books**:
+   - **Hybrid Book**:
 
 ### 2. **File Formats**
    - **EPD (.epd)**: Chess position databases storing multiple positions.
