@@ -99,5 +99,6 @@ for filename in sorted(os.listdir(), key=str.lower):
 
 with open(json_file, "w") as f:
     json.dump(new_stats, f, indent=4)
+    f.write("\n")  # add missing newline character
 
 print(f"\nSaved results to {json_file}.")

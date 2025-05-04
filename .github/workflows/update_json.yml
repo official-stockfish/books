@@ -1,0 +1,30 @@
+# This workflow will run 'python update_json.py' on the PR
+
+name: update books.json
+on:
+  push:
+    branches:
+      - master
+      - github_ci
+  pull_request:
+    branches:
+      - master
+jobs:
+  update_json:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+
+      - name: install deps
+        run: pip install chess
+
+      - name: run update_json.py
+        run: rm -f books.json && python update_json.py
+
+      - name: verify books.json
+        run: |
+          git diff --quiet --exit-code books.json || {
+            git --no-pager diff --no-color books.json
+            exit 1
+          }
