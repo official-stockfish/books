@@ -3,9 +3,9 @@
         "total": 40457,
         "white": 40457,
         "black": 0,
-        "min_depth": null,
-        "max_depth": null,
-        "sri": "VUt5EvePnPW3olMboIUPAcyuEdMkjJUi3FRYx+fuVXgW3isUnS5DNwK5PCNAAG7i"
+        "min_depth": 4,
+        "max_depth": 4,
+        "sri": "3KqrVhD252BCXrqwqVmFeYnLRp+ckuubLFo+9OFLic3iTuzrfV563rNMUB+vovpz"
     },
     "2moves_v2.pgn": {
         "total": 12092,
@@ -123,33 +123,33 @@
         "total": 7314,
         "white": 7314,
         "black": 0,
-        "min_depth": null,
-        "max_depth": null,
-        "sri": "RTNrmIHyWqIJHxGBSlx6abLcnumHTU2AQV7TOI4JIJ0ioWzvvYB39EmnOlKKxkQ3"
+        "min_depth": 4,
+        "max_depth": 4,
+        "sri": "kmGmXQJVWl7dDWjxwaox1CJu9tWbszGuz5LkCYQKdC/CG7GEW1TEoYthgLCRX6bZ"
     },
     "noob_3moves.epd": {
         "total": 150932,
         "white": 150932,
         "black": 0,
-        "min_depth": null,
-        "max_depth": null,
-        "sri": "bSKdXIvM1axDqDhrifXJDFRsQxwVipguHVEZa7/0Oz6rxmD8itAteZO9vcIkQadv"
+        "min_depth": 6,
+        "max_depth": 6,
+        "sri": "FvfPX09TMPXct8CAIehuAZn16lLNP5Hn/tChtjz0sQ3bOh03OHi/r2LEosksvHKX"
     },
     "noob_4moves.epd": {
         "total": 1837365,
         "white": 1837365,
         "black": 0,
-        "min_depth": null,
-        "max_depth": null,
-        "sri": "gg8SE0XCOxS6CzAUYBDGs0qkJ6J6fJ6bDibS9L8yPofLS+e3OpH35oAvkUqcdt8Y"
+        "min_depth": 8,
+        "max_depth": 8,
+        "sri": "Ex11x6K37BVlHFyf25PapaGJYW7dC3RKfsE2mhKfg3YAEjGTcLCvpJwM0MRxuDgz"
     },
     "noob_5moves.epd": {
         "total": 455287,
         "white": 455287,
         "black": 0,
-        "min_depth": null,
-        "max_depth": null,
-        "sri": "LtXBAHOiYfqImiDRLUHwPtN6Ku5m2etu//6+KhGKWVuyWNtqyBi76wLCqfN77vGD"
+        "min_depth": 10,
+        "max_depth": 10,
+        "sri": "KkoVTUopFPmfODxE82lulQcA6Hs7yhLx/+Kd4oC3sn1gsxvVjKFfLeyWA186UAVN"
     },
     "popularpos_lichess.epd": {
         "total": 200000,
