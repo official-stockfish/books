@@ -1,0 +1,2 @@
+# enforce end of line encoding is LF, needed for CI to run correctly
+* text=auto eol=lf
