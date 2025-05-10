@@ -1,60 +1,35 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 26 10:01:47 2020
-@author: stephane
+import chess, sys
 
-Usage : python epd2pgn.py <NAME_OF_EPD_FILE>
-
-Example : python epd2pgn.py endgames.epd
-
-"""
-
-
-import hashlib
-import os
-import sys
 
 def epd_to_pgn(bookname):
-    
-   tmpname     = bookname + '-md5.txt'
-   suffledname = bookname + '-suffled.txt'
-   pgnname     = bookname.replace('.epd', '.pgn')
-    
-   # Calculate the md5 of each position in the epd file
-   book = open(bookname)
-   tmp = open(tmpname, "w")
-   line = book.readline()
-   while line :
-       md5 = hashlib.md5(line.encode('utf-8')).hexdigest()
-       tmp.write(md5 + ' ' + line)
-       line = book.readline()
-   tmp.close()
-   book.close()
-   
-   # Sort by md5 keys and rewrite the positions
-   # This gives a epd file with positions in random order
-   suffled = open(suffledname, "w")
-   with open(tmpname, 'r') as tmp:
-      for line in sorted(tmp):
-          suffled.write(line.split(' ', 1)[1])
-   suffled.close()
-   
-   # Transform each line of the epd file in the pgn format
-   pgn = open(pgnname, "w")
-   with open(suffledname, 'r') as suffled:
-      for line in suffled:
-          pgn.write('[FEN "' + line[:-1] + '"]\n')
-          pgn.write('[Result "1/2-1/2"]\n' )
-          pgn.write('\n')
-          pgn.write('1/2-1/2\n\n')
-   pgn.close()
-   
-   # Clean up the temp files
-   os.remove(tmpname)
-   os.remove(suffledname)
+    epds = set()
+    duplicates = []
+    pgnname = bookname.replace(".epd", ".pgn")
+    with open(bookname) as epd, open(pgnname, "w") as pgn:
+        for count, line in enumerate(epd):
+            assert ";" not in line, "Expect FENs w/ or w/o move counters"
+            fields = line.split()
+            epd = " ".join(fields[:4])
+            epd = chess.Board(epd).epd()  # remove superfluous ep square
+            if epd in epds:
+                duplicates.append(count + 1)
+            else:
+                epds.add(epd)
+            pgn.write('[FEN "' + line.strip() + '"]\n')
+            pgn.write('[Result "*"]\n')
+            pgn.write("\n")
+            pgn.write("*\n\n")
 
+    if duplicates:
+        dstr = ",".join([str(g) for g in duplicates])
+        print(f"Warning: The following FENs are a duplicate: {dstr}.")
+
+    print(f"Wrote the converted book to {pgnname}.")
 
 
 if __name__ == "__main__":
-   epd_to_pgn(sys.argv[1])
+    if len(sys.argv) == 2 and sys.argv[1].endswith(".epd"):
+        epd_to_pgn(sys.argv[1])
+    else:
+        print(f"Usage: python {sys.argv[0]} <book.epd>")
+        print("\nConverts an .epd into a .pgn book, keeping the order intact.")
