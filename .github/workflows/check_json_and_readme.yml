@@ -1,6 +1,6 @@
-# This workflow will run 'python update_json.py' on the PR
+# This workflow will run update_json.py and update_readme.py on the PR
 
-name: update books.json
+name: check books.json and README.md
 on:
   push:
     branches:
@@ -10,7 +10,7 @@ on:
     branches:
       - master
 jobs:
-  update_json:
+  check_json_and_readme:
     runs-on: ubuntu-24.04
     steps:
       - name: checkout repo
@@ -26,5 +26,15 @@ jobs:
         run: |
           git diff --quiet --exit-code books.json || {
             git --no-pager diff --no-color books.json
+            exit 1
+          }
+
+      - name: run update_readme.py
+        run: python update_readme.py
+
+      - name: verify README.md
+        run: |
+          git diff --quiet --exit-code README.md || {
+            git --no-pager diff --no-color README.md
             exit 1
           }
