@@ -63,14 +63,6 @@
         "max_depth": 16,
         "sri": "isz6ubFj5Mo2PLlLLg+xtehW3+SF7/o6unHIHCzWHXx/vGgbFBOgtsa99+okvTzq"
     },
-    "bjbraams_chessdb_198350_lines.epd": {
-        "total": 198350,
-        "white": 154148,
-        "black": 44202,
-        "min_depth": 1,
-        "max_depth": 16,
-        "sri": "yRl4uwjuwDoQjqj7STOmogOcNzhDgFXapyUQbfGXeVwcSg7b6b5B+k91KieyW1br"
-    },
     "bjbraams_chessdb_198350_lines.pgn": {
         "total": 198350,
         "white": 154148,
@@ -239,14 +231,6 @@
         "max_depth": 16,
         "sri": "QHAU1P3LurcJr7UTRI7HZCVFsoYBWC3OTsBqZY/FfQA6VQo3MmECWtByB4gVACW5"
     },
-    "UHO_MEGA_2022_+110_+149.epd": {
-        "total": 321412,
-        "white": 321412,
-        "black": 0,
-        "min_depth": 16,
-        "max_depth": 16,
-        "sri": "C/6g6MV3Hi/mWfYC/7Uytxy8KMJkHsoiAiD3Oij7Z8rff3xlYwJi/9OgMva6Zoej"
-    },
     "UHO_MEGA_2022_+110_+149.pgn": {
         "total": 321412,
         "white": 321412,
@@ -254,14 +238,6 @@
         "min_depth": 16,
         "max_depth": 16,
         "sri": "dVMubbSulaPBZv9vmhh1a80fsCA9MLcN51XGqWFNW00Z+agLbYHhDQURBuUfhh9H"
-    },
-    "UHO_XXL_+0.80_+1.09.epd": {
-        "total": 261028,
-        "white": 261028,
-        "black": 0,
-        "min_depth": 16,
-        "max_depth": 16,
-        "sri": "8eKRMCPedy9w/ZbgXN0b47L4gpeXzHyuvEiwj9qn43aaqj1DeZRLlNZUq+cXJ0Vb"
     },
     "UHO_XXL_+0.80_+1.09.pgn": {
         "total": 261028,
@@ -271,14 +247,6 @@
         "max_depth": 16,
         "sri": "E9QyYfzbn/s03ueDeKq+poqBpLwwYY6g79R5JXtFj1FxUsYB5j1qNg3KTgqCdgqs"
     },
-    "UHO_XXL_+0.90_+1.19.epd": {
-        "total": 223070,
-        "white": 223070,
-        "black": 0,
-        "min_depth": 16,
-        "max_depth": 16,
-        "sri": "YYvK66u8IzumztG2a5dJCygibpQtmpFpJjtbItiwlFA0OUQJzm92DcGqN/g2aHrH"
-    },
     "UHO_XXL_+0.90_+1.19.pgn": {
         "total": 223070,
         "white": 223070,
@@ -286,14 +254,6 @@
         "min_depth": 16,
         "max_depth": 16,
         "sri": "xnpY+GaWf/8UBpguZRTL6yimA4gixGGSlT/bT6Sg+Su/BD0Zz+SSYO9dAvfH59qc"
-    },
-    "UHO_XXL_+1.00_+1.29.epd": {
-        "total": 186098,
-        "white": 186098,
-        "black": 0,
-        "min_depth": 16,
-        "max_depth": 16,
-        "sri": "w0HKlH7d9HsxXDCIOJSMmUtrbyNnu9EJJU0IkvqMYgLtj0FZef89HChxBtUaNJcM"
     },
     "UHO_XXL_+1.00_+1.29.pgn": {
         "total": 186098,
@@ -303,14 +263,6 @@
         "max_depth": 16,
         "sri": "hL7QVZcnVWTYtPEy3/ZV4Mtt5lHQfPO3NjPqSV1S8/wcS5p2zLFZ4c0sBK7RDmXJ"
     },
-    "UHO_XXL_2022_+100_+129.epd": {
-        "total": 284035,
-        "white": 284035,
-        "black": 0,
-        "min_depth": 16,
-        "max_depth": 16,
-        "sri": "YqRN6ctLj87QhPYs3h/fU+DC7oc1KI5cvrfsJ7L3ZwMHck+dvNQS3q7tKeHABGLv"
-    },
     "UHO_XXL_2022_+100_+129.pgn": {
         "total": 284035,
         "white": 284035,
@@ -319,14 +271,6 @@
         "max_depth": 16,
         "sri": "Zm7JkVvV0w2fThQ1KqEHtW9A1Gep3H2Cy2lp4bYmBrQlg3b8Z1dNp5luI4rI4SdN"
     },
-    "UHO_XXL_2022_+110_+139.epd": {
-        "total": 253847,
-        "white": 253847,
-        "black": 0,
-        "min_depth": 16,
-        "max_depth": 16,
-        "sri": "xjLB5iIkJFUU6xM2e2eeSXRIXAmCmYh3O+ZqTQXn+MrMynqZD9X63mUNGajKEzR7"
-    },
     "UHO_XXL_2022_+110_+139.pgn": {
         "total": 253847,
         "white": 253847,
@@ -334,14 +278,6 @@
         "min_depth": 16,
         "max_depth": 16,
         "sri": "ukD2bRPycwOniwdivzAGOx50DB4jEJsFSqHydxt0iXVZ7rfeLanHjEi4hpayqkLh"
-    },
-    "UHO_XXL_2022_+120_+149.epd": {
-        "total": 226629,
-        "white": 226629,
-        "black": 0,
-        "min_depth": 16,
-        "max_depth": 16,
-        "sri": "ve/AKJ6s2VV452TnI+s37XXUXWJTOyGMDq7Q6HVYQ/N5U52RGG0Lga2CIJn4l4Hv"
     },
     "UHO_XXL_2022_+120_+149.pgn": {
         "total": 226629,
