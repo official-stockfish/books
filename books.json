@@ -191,14 +191,6 @@
         "max_depth": 0,
         "sri": "B0D/PN334ez5R9K8mGspR5ZjfXb0sWoEObBnkCI7sczqZbaOHQ5aooqk97zeHM0a"
     },
-    "startpos_chess960.epd": {
-        "total": 960,
-        "white": 960,
-        "black": 0,
-        "min_depth": 0,
-        "max_depth": 0,
-        "sri": "Gdod6/FsOa4PR2mr6I1QLDiVDzFXQAEetYcvGXt+LOgzagZBbuVcc36nBX9OTn/c"
-    },
     "UHO_4060_v1.epd": {
         "total": 246759,
         "white": 246759,
