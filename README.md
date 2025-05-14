@@ -35,7 +35,6 @@ The following table gives a brief overview of the available books.
 | `popularpos_lichess_v3.epd` | 200000 | 102952 | 97048 | None | None |
 | `stalemates_200d30_v1.epd` | 10796 | 7978 | 2818 | 12 | 479 |
 | `startpos.epd` | 1 | 1 | 0 | 0 | 0 |
-| `startpos_chess960.epd` | 960 | 960 | 0 | 0 | 0 |
 | `UHO_4060_v1.epd` | 246759 | 246759 | 0 | 16 | 16 |
 | `UHO_4060_v2.epd` | 242201 | 242201 | 0 | None | None |
 | `UHO_4060_v3.epd` | 242201 | 242201 | 0 | 16 | 16 |
