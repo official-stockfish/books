@@ -25,6 +25,7 @@ The following table gives a brief overview of the available books.
 | `DFRC_openings.epd` | 921600 | 921600 | 0 | 0 | 0 |
 | `Drawkiller_balanced_big.epd` | 15962 | 15962 | 0 | 28 | 28 |
 | `endgames.epd` | 157846 | 74355 | 83491 | 23 | 652 |
+| `FRC_openings.epd` | 960 | 960 | 0 | 0 | 0 |
 | `hybrid_book_beta.epd` | 28054 | 28054 | 0 | None | None |
 | `noob_2moves.epd` | 7314 | 7314 | 0 | 4 | 4 |
 | `noob_3moves.epd` | 150932 | 150932 | 0 | 6 | 6 |

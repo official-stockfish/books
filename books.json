@@ -111,6 +111,14 @@
         "max_depth": 652,
         "sri": "nxIaD6KHWtRWCjwK1WS4FffBMilSTT3psxwNSNtW/zSMMlI1n/m6dximaniQGGe4"
     },
+    "FRC_openings.epd": {
+        "total": 960,
+        "white": 960,
+        "black": 0,
+        "min_depth": 0,
+        "max_depth": 0,
+        "sri": "JVruRrMKePsACyfEBbKEKWnGcZjIXSfvE6MuQ58PFmGPK9sdtzWl6ZzADd5AkoLY"
+    },
     "hybrid_book_beta.epd": {
         "total": 28054,
         "white": 28054,
