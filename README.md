@@ -21,6 +21,8 @@ The following table gives a brief overview of the available books.
 | `8mvs_big_+80_+109.epd` | 25857 | 25857 | 0 | 16 | 16 |
 | `bjbraams_chessdb_198350_lines.pgn` | 198350 | 154148 | 44202 | 1 | 16 |
 | `closedpos.epd` | 165735 | 165735 | 0 | 8 | 8 |
+| `DFRC_4060_v1.epd` | 333634 | 105883 | 227751 | 0 | 1 |
+| `DFRC_4852_v1.epd` | 294466 | 160639 | 133827 | 0 | 3 |
 | `DFRC_openings.epd` | 921600 | 921600 | 0 | 0 | 0 |
 | `Drawkiller_balanced_big.epd` | 15962 | 15962 | 0 | 28 | 28 |
 | `endgames.epd` | 157846 | 74355 | 83491 | 23 | 652 |
