@@ -79,6 +79,14 @@
         "max_depth": 8,
         "sri": "Bgre8o2ye1/Qyf9YWsxRoen3wWYNZYtK7jcpfB2pmE7e1HFZXsoY6OCWbM+pKg83"
     },
+    "DFRC_4852_v1.epd": {
+        "total": 294466,
+        "white": 160639,
+        "black": 133827,
+        "min_depth": 0,
+        "max_depth": 3,
+        "sri": "lVSTriuS/Pq2z5mz9YAkgluicHPzQh/B61AJKpmUS/9spQkcJ3MgfJXqtopdDfh1"
+    },
     "DFRC_openings.epd": {
         "total": 921600,
         "white": 921600,
