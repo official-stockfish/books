@@ -3,6 +3,7 @@ import base64, chess, chess.pgn, hashlib, io, json, os, subprocess, zipfile
 json_file = "books.json"
 
 """ Run 'python update_json.py' to update the meta data stored in books.json.
+    Make sure to run 'git add' for new books _before_ running this script.
     Remove books.json if all the information should be recomputed from scratch.
 """
 

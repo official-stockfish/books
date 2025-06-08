@@ -19,6 +19,16 @@ jobs:
       - name: install deps
         run: pip install chess
 
+      - name: run update_json.py (fast)
+        run: python update_json.py
+
+      - name: verify books.json (fast)
+        run: |
+          git diff --quiet --exit-code books.json || {
+            git --no-pager diff --no-color books.json
+            exit 1
+          }
+
       - name: run update_json.py
         run: rm -f books.json && python update_json.py
 
