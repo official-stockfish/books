@@ -1,4 +1,4 @@
-import base64, chess, chess.pgn, hashlib, io, json, os, zipfile
+import base64, chess, chess.pgn, hashlib, io, json, os, subprocess, zipfile
 
 json_file = "books.json"
 
@@ -71,6 +71,15 @@ def get_stats_and_sri(compressedbook, old_stats):
     }
 
 
+def get_file_list():
+    if os.path.exists(".git"):
+        p = subprocess.run(["git", "ls-files"], stdout=subprocess.PIPE)
+        files = p.stdout.decode().split("\n")
+    else:
+        files = os.listdir()
+    return sorted(files, key=str.lower)
+
+
 old_stats = {}
 if os.path.isfile(json_file):
     with open(json_file) as f:
@@ -78,7 +87,7 @@ if os.path.isfile(json_file):
     print(f"Read in stats for {len(old_stats)} books from {json_file}.")
 
 new_stats = {}
-for filename in sorted(os.listdir(), key=str.lower):
+for filename in get_file_list():
     if (
         filename.endswith(".epd.zip") or filename.endswith(".pgn.zip")
     ) and os.path.isfile(filename):
