@@ -9,12 +9,15 @@ json_file = "books.json"
 
 def get_stats_and_sri(compressedbook, old_stats):
     content_bytes = None
+    book = compressedbook
     if compressedbook.endswith(".zip"):
         book, _, _ = compressedbook.rpartition(".zip")
         with zipfile.ZipFile(compressedbook) as zip_file:
             content_bytes = zip_file.read(book)
     if content_bytes is None:
         return book, {}
+
+    content_bytes = content_bytes.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
 
     sri = base64.b64encode(hashlib.sha384(content_bytes).digest()).decode("utf8")
 
