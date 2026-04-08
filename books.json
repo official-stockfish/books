@@ -71,6 +71,14 @@
         "max_depth": 16,
         "sri": "wU418kvxond2TCIPX9SPOPxtgowC3tA4Hi/y6zf+Injy4icrH24rzorG9Be6Usl4"
     },
+    "closed_midgame.epd": {
+        "total": 174240,
+        "white": 108436,
+        "black": 65804,
+        "min_depth": 28,
+        "max_depth": 199,
+        "sri": "Sht21i4nFB5GkTKRPD4KpKDAKVBL1e/3DryW9lp+9eE2J3ybx+mEeH9avRMdDaVH"
+    },
     "closedpos.epd": {
         "total": 165735,
         "white": 165735,
