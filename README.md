@@ -20,7 +20,7 @@ The following table gives a brief overview of the available books.
 | `8mvs_+90_+99.epd` | 8533 | 8533 | 0 | 16 | 16 |
 | `8mvs_big_+80_+109.epd` | 25857 | 25857 | 0 | 16 | 16 |
 | `bjbraams_chessdb_198350_lines.pgn` | 198350 | 154148 | 44202 | 1 | 16 |
-| `closed_midgame.epd` | 174240 | 108436 | 65804 | 28 | 199 |
+| `closed_midgame.epd` | 113883 | 70978 | 42905 | 28 | 139 |
 | `closedpos.epd` | 165735 | 165735 | 0 | 8 | 8 |
 | `DFRC_4852_v1.epd` | 294466 | 160639 | 133827 | 0 | 3 |
 | `DFRC_openings.epd` | 921600 | 921600 | 0 | 0 | 0 |
