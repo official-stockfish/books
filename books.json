@@ -207,6 +207,14 @@
         "max_depth": 0,
         "sri": "B0D/PN334ez5R9K8mGspR5ZjfXb0sWoEObBnkCI7sczqZbaOHQ5aooqk97zeHM0a"
     },
+    "transpositions_cdb95105.epd": {
+        "total": 200866,
+        "white": 110870,
+        "black": 89996,
+        "min_depth": 4,
+        "max_depth": 40,
+        "sri": "i2c5sKnXssDnxgu/kkPbYt0429bCBJj0XpXoiZpg6M1jM0yW6eoiw4OUzvVwUBTq"
+    },
     "UHO_4060_v1.epd": {
         "total": 246759,
         "white": 246759,
