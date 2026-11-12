@@ -42,6 +42,7 @@ The following table gives a brief overview of the available books.
 | `UHO_4060_v2.epd` | 242201 | 242201 | 0 | None | None |
 | `UHO_4060_v3.epd` | 242201 | 242201 | 0 | 16 | 16 |
 | `UHO_4060_v4.epd` | 241670 | 241670 | 0 | 16 | 16 |
+| `UHO_Lichess_4560_v1.epd` | 2641497 | 1358611 | 1282886 | 2 | 46 |
 | `UHO_Lichess_4852_v1.epd` | 2632036 | 1457270 | 1174766 | 2 | 16 |
 | `UHO_MEGA_2022_+110_+149.pgn` | 321412 | 321412 | 0 | 16 | 16 |
 | `UHO_XXL_+0.80_+1.09.pgn` | 261028 | 261028 | 0 | 16 | 16 |
