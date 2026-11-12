@@ -247,6 +247,14 @@
         "max_depth": 16,
         "sri": "MwywsnSV4YzSj5Q9DI2dUcPcRFMf4LtaOnj4igKRxcGxiSN2HdQPvq/M48kuqz+U"
     },
+    "UHO_endgames_4555_v1.epd": {
+        "total": 25673,
+        "white": 13306,
+        "black": 12367,
+        "min_depth": 24,
+        "max_depth": 393,
+        "sri": "aiCOBVqLQSIXFIdPyWDXuvbiHpiLGidINkBbvmzMOqn+bbAkGOz8hxI5D15cnB6R"
+    },
     "UHO_Lichess_4560_v1.epd": {
         "total": 2641497,
         "white": 1358611,
