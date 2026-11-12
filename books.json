@@ -247,6 +247,14 @@
         "max_depth": 16,
         "sri": "MwywsnSV4YzSj5Q9DI2dUcPcRFMf4LtaOnj4igKRxcGxiSN2HdQPvq/M48kuqz+U"
     },
+    "UHO_Lichess_4560_v1.epd": {
+        "total": 2641497,
+        "white": 1358611,
+        "black": 1282886,
+        "min_depth": 2,
+        "max_depth": 46,
+        "sri": "2v+DwQf5i07EDYuKvbzZickkwGIxDWePH1aCgYHtUwRiph/qKxSt8zHHhlSfT3sV"
+    },
     "UHO_Lichess_4852_v1.epd": {
         "total": 2632036,
         "white": 1457270,
